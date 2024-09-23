@@ -21,7 +21,7 @@ const Angelica: Item = {
     brand: ShoeBrand.Nike,
     price: 150,
     print: function() {
-        console.log(Member: ${this.name}, Item: ${this.itemName}, Brand: ${this.brand}, Price: $${this.price});
+        console.log(`Member: ${this.name}, Item: ${this.itemName}, Brand: ${this.brand}, Price: $${this.price}`);
     }
 };
 const Daisy: Item = {
@@ -29,7 +29,7 @@ const Daisy: Item = {
     itemName: "Casual Sneakers",
     brand: ShoeBrand.Vans,
     print: function() {
-        console.log(Member: ${this.name}, Item: ${this.itemName}, Brand: ${this.brand});
+        console.log(`Member: ${this.name}, Item: ${this.itemName}, Brand: ${this.brand}`);
     }
 };
 
@@ -39,12 +39,22 @@ const Alliyah: Item = {
     brand: ShoeBrand.Puma,
     price: 120,
     print: function() {
-        console.log(Member: ${this.name}, Item: ${this.itemName}, Brand: ${this.brand}, Price: $${this.price});
+        console.log(`Member: ${this.name}, Item: ${this.itemName}, Brand: ${this.brand}, Price: $${this.price}`);
     }
 };
+
+const John : Item = {
+    name: "John",
+    itemName: "Running Shoes",
+    brand: ShoeBrand.Adidas,
+    print: function() {
+        console.log(`Member: ${this.name}, Item: ${this.itemName}, Brand: ${this.brand}`);
+    }
+};
+
 
 Angelica.print(); 
 Daisy.print(); 
 Alliyah.print();
-
+John.print();
 
