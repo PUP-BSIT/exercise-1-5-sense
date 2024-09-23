@@ -33,7 +33,7 @@ const Angelica: Item = {
 const Daisy: Item = {
   name: "Daisy",
   itemName: "Casual Sneakers",
-  brand: ShoeBrand.Vans,
+  brand: ShoeBrand.VANS,
   print: function () {
     console.log(
       `Member: ${this.name}, 
