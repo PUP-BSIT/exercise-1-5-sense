@@ -61,7 +61,7 @@ const Alliyah: Item = {
 const John: Item = {
   name: "John",
   itemName: "Running Shoes",
-  brand: ShoeBrand.Adidas,
+  brand: ShoeBrand.ADIDAS,
   print: function () {
     console.log(
       `Member: ${this.name}, 
