@@ -32,7 +32,19 @@ const Daisy: Item = {
         console.log(Member: ${this.name}, Item: ${this.itemName}, Brand: ${this.brand});
     }
 };
+
+const Alliyah: Item = {
+    name: "Alliyah",
+    itemName: "Sports Shoes",
+    brand: ShoeBrand.Puma,
+    price: 120,
+    print: function() {
+        console.log(Member: ${this.name}, Item: ${this.itemName}, Brand: ${this.brand}, Price: $${this.price});
+    }
+};
+
 Angelica.print(); 
 Daisy.print(); 
+Alliyah.print();
 
 
