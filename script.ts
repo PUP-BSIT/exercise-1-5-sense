@@ -18,7 +18,7 @@ type Item = {
 const Angelica: Item = {
   name: "Angelica",
   itemName: "Running Shoes",
-  brand: ShoeBrand.Nike,
+  brand: ShoeBrand.NIKE,
   price: 150,
   print: function () {
     console.log(
