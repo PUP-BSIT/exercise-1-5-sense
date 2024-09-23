@@ -74,14 +74,14 @@ const John: Item = {
 const Oliver: Item = {
   name: "Oliver",
   itemName: "Basketball Shoes",
-  brand: ShoeBrand.Fila,
+  brand: ShoeBrand.FILA,
   price: 200,
   print: function () {
     console.log(
       `Member: ${this.name}, 
       Item: ${this.itemName}, 
       Brand: ${this.brand}, 
-      Price: $${this.price}`
+      Price: ${this.price}`
     );
   },
 };
