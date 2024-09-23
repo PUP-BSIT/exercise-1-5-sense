@@ -12,20 +12,20 @@ type Item = {
   itemName: string;
   brand: string;
   price?: number;
-  print: () => void;
+  print(): void;
 };
 
 const Angelica: Item = {
   name: "Angelica",
   itemName: "Running Shoes",
-  brand: ShoeBrand.Nike,
+  brand: ShoeBrand.NIKE,
   price: 150,
   print: function () {
     console.log(
       `Member: ${this.name}, 
       Item: ${this.itemName}, 
       Brand: ${this.brand}, 
-      Price: $${this.price}`
+      Price: ${this.price}`
     );
   },
 };
