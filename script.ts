@@ -1,10 +1,10 @@
 enum ShoeBrand {
-  Nike = "Nike",
-  Puma = "Puma",
-  Vans = "Vans",
-  Adidas = "Adidas",
-  Fila = "Fila",
-  Reebok = "Reebook",
+  NIKE = "Nike",
+  PUMA = "Puma",
+  VANS = "Vans",
+  ADIDAS = "Adidas",
+  FILA = "Fila",
+  REEBOK = "Reebook",
 }
 
 type Item = {
@@ -46,14 +46,14 @@ const Daisy: Item = {
 const Alliyah: Item = {
   name: "Alliyah",
   itemName: "Sports Shoes",
-  brand: ShoeBrand.Puma,
+  brand: ShoeBrand.PUMA,
   price: 120,
   print: function () {
     console.log(
       `Member: ${this.name}, 
       Item: ${this.itemName}, 
       Brand: ${this.brand}, 
-      Price: $${this.price}`
+      Price: ${this.price}`
     );
   },
 };
