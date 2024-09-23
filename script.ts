@@ -24,5 +24,15 @@ const Angelica: Item = {
         console.log(Member: ${this.name}, Item: ${this.itemName}, Brand: ${this.brand}, Price: $${this.price});
     }
 };
-
+const Daisy: Item = {
+    name: "Daisy",
+    itemName: "Casual Sneakers",
+    brand: ShoeBrand.Vans,
+    print: function() {
+        console.log(Member: ${this.name}, Item: ${this.itemName}, Brand: ${this.brand});
+    }
+};
 Angelica.print(); 
+Daisy.print(); 
+
+
