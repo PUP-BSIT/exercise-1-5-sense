@@ -12,7 +12,7 @@ type Item = {
   itemName: string;
   brand: string;
   price?: number;
-  print: () => void;
+  print(): void;
 };
 
 const Angelica: Item = {
@@ -25,7 +25,7 @@ const Angelica: Item = {
       `Member: ${this.name}, 
       Item: ${this.itemName}, 
       Brand: ${this.brand}, 
-      Price: $${this.price}`
+      Price: ${this.price}`
     );
   },
 };
