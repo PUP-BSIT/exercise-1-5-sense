@@ -10,7 +10,7 @@ enum ShoeBrand {
 type Item = {
   name: string;
   itemName: string;
-  brand: string;
+  brand: ShoeBrand;
   price?: number;
   print(): void;
 };
